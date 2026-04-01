@@ -1,0 +1,290 @@
+[
+    {
+      "question": "O que é o sistema imunológico?",
+      "answer": "Sistema integrado de células, tecidos e órgãos responsável pela defesa e manutenção da homeostase, capaz de reconhecer “próprio” e “não próprio”."
+    },
+    {
+      "question": "O que é um antígeno?",
+      "answer": "Molécula capaz de ser reconhecida por receptores específicos do sistema imune."
+    },
+    {
+      "question": "Por que a estrutura do sistema imune é importante?",
+      "answer": "Porque sem estrutura não há função; a resposta imune depende de organização anatômica"
+    },
+    {
+      "question": "Como o sistema imune é organizado anatomicamente?",
+      "answer": "Em órgãos linfoides primários, secundários e células circulantes."
+    },
+    {
+      "question": "Qual a função dos órgãos linfoides primários?",
+      "answer": "Produção e maturação das células do sistema imune."
+    },
+    {
+      "question": "Qual a função dos órgãos linfoides secundários?",
+      "answer": "Promover o encontro entre antígeno e linfócitos e ativar a resposta imune."
+    },
+    {
+      "question": "Quais são os órgãos linfoides primários?",
+      "answer": "Medula óssea e timo."
+    },
+    {
+      "question": "O que é hematopoese?",
+      "answer": "Processo de formação das células sanguíneas."
+    },
+    {
+      "question": "Qual a função da medula óssea?",
+      "answer": "Produzir células do sangue e maturar linfócitos B."
+    },
+    {
+      "question": "Qual a função do timo?",
+      "answer": "Maturação de linfócitos T."
+    },
+    {
+      "question": "O que é seleção negativa no timo?",
+      "answer": "Eliminação de linfócitos autorreativos."
+    },
+    {
+      "question": "Quais são os órgãos linfoides secundários?",
+      "answer": "Linfonodos, baço e MALT."
+    },
+    {
+      "question": "Qual a função dos linfonodos?",
+      "answer": "Filtrar a linfa e ativar linfócitos."
+    },
+    {
+      "question": "Quais são as principais estruturas dos linfonodos?",
+      "answer": "Cápsula, córtex e medula."
+    },
+    {
+      "question": "Qual a função do baço?",
+      "answer": "Filtrar o sangue e responder a antígenos circulantes."
+    },
+    {
+      "question": "O que fazem a polpa branca e vermelha do baço?",
+      "answer": "Polpa branca: resposta imune<br>Polpa vermelha: filtragem de hemácias"
+    },
+    {
+      "question": "O que é MALT?",
+      "answer": "Tecido linfoide associado às mucosas."
+    },
+    {
+      "question": "Qual a função do MALT?",
+      "answer": "Defesa de superfícies expostas (primeira linha contra patógenos)."
+    },
+    {
+      "question": "Como ocorre a circulação das células imunes?",
+      "answer": "→ Medula óssea → sangue → órgãos secundários → tecidos → retorno à circulação."
+    },
+    {
+      "question": "Por que o sistema imune é considerado dinâmico?",
+      "answer": "Porque há circulação contínua de células entre órgãos e tecidos."
+    },
+    {
+      "question": "Qual a relação entre órgãos primários e secundários?",
+      "answer": "→ Primários: produção e maturação<br>→ Secundários: ativação e resposta"
+    },
+    {
+      "question": "O que é expansão clonal?",
+      "answer": "Multiplicação de linfócitos ativados."
+    },
+    {
+      "question": "O que acontece se uma pessoa nasce sem timo funcional?",
+      "answer": "Prejuízo na maturação de linfócitos T."
+    },
+    {
+      "question": "Quais infecções são mais comuns no caso de falta de timo funcional?",
+      "answer": "Virais e fúngicas."
+    },
+    {
+      "question": "Qual é um exemplo clínico dessa condição?",
+      "answer": "Síndrome de DiGeorge."
+    },
+    {
+      "question": "Um paciente apresenta resposta imune desorganizada apesar de células funcionais. Qual princípio estrutural explica isso?",
+      "answer": "A resposta imune depende de organização anatômica; sem estrutura, não há coordenação funcional."
+    },
+    {
+      "question": "Explique por que o sistema imune não pode ser considerado um conjunto isolado de células.",
+      "answer": "Porque depende da integração entre órgãos, circulação e organização espacial para funcionar adequadamente."
+    },
+    {
+      "question": "Um fármaco impede a migração de linfócitos para órgãos secundários. Qual etapa da resposta será mais afetada?",
+      "answer": "encontro com antígeno e a ativação da resposta imune."
+    },
+    {
+      "question": "Diferencie funcionalmente uma falha em órgão primário vs secundário.",
+      "answer": "→ Primário: afeta produção/maturação<br>→ Secundário: afeta ativação/resposta"
+    },
+    {
+      "question": "Por que a formação do repertório imunológico ocorre apenas nos órgãos primários?",
+      "answer": "Porque é onde ocorre maturação e seleção de linfócitos."
+    },
+    {
+      "question": "Se a hematopoese for comprometida, quais sistemas serão diretamente afetados?",
+      "answer": "Sistema imune e sistema hematológico como um todo."
+    },
+    {
+      "question": "Por que a medula óssea é considerada essencial mesmo após o nascimento?",
+      "answer": "Porque continua produzindo células sanguíneas continuamente."
+    },
+    {
+      "question": "Qual consequência específica ocorre na imunidade adaptativa se houver falha na maturação de linfócitos B?",
+      "answer": "Redução da produção de anticorpos."
+    },
+    {
+      "question": "Um erro na seleção negativa levaria a qual consequência clínica direta?",
+      "answer": "Desenvolvimento de autoimunidade."
+    },
+    {
+      "question": "Por que o timo é mais crítico na infância do que na vida adulta?",
+      "answer": "Porque é o principal local de maturação inicial dos linfócitos T."
+    },
+    {
+      "question": "Relacione ausência de timo com tipo de patógeno mais frequente",
+      "answer": "Maior suscetibilidade a vírus e fungos."
+    },
+    {
+      "question": "Qual mecanismo do timo evita ataque ao próprio organismo?",
+      "answer": "Eliminação de linfócitos autorreativos (seleção negativa)."
+    },
+    {
+      "question": "Um aumento de linfonodos durante infecção indica qual processo imunológico?",
+      "answer": "Ativação e proliferação de linfócitos (expansão clonal)."
+    },
+    {
+      "question": "Por que linfonodos são estratégicos na defesa?",
+      "answer": "Porque filtram a linfa e concentram antígenos e linfócitos."
+    },
+    {
+      "question": "Um paciente esplenectomizado terá maior dificuldade contra qual tipo de antígeno?",
+      "answer": "Antígenos circulantes no sangue"
+    },
+    {
+      "question": "Diferencie funcionalmente polpa branca e vermelha em contexto clínico.",
+      "answer": "→ Branca: resposta imune<br>→ Vermelha: remoção de hemácias envelhecidas"
+    },
+    {
+      "question": "Por que o baço é único em relação aos outros órgãos",
+      "answer": "Porque atua sobre o sangue, não a linfa."
+    },
+    {
+      "question": "Por que o MALT é considerado linha de frente da imunidade?",
+      "answer": "Porque atua nas superfícies de contato com o meio externo."
+    },
+    {
+      "question": "Cite uma consequência de falha no MALT.",
+      "answer": "Maior suscetibilidade a infecções em mucosas (respiratórias, intestinais)."
+    },
+    {
+      "question": "Por que a circulação contínua de células imunes é essencial?",
+      "answer": "Para garantir vigilância imunológica em todo o organismo."
+    },
+    {
+      "question": "Qual seria o impacto de interromper o tráfego entre órgãos primários e secundários?",
+      "answer": "Comprometimento da ativação da resposta imune."
+    },
+    {
+      "question": "Associe corretamente: produção, maturação, ativação e expansão clonal aos locais onde ocorrem.",
+      "answer": "→ Produção/maturação: órgãos primários<br>→ Ativação/expansão: órgãos secundários"
+    },
+    {
+      "question": "Por que a resposta imune é considerada um processo hierárquico?",
+      "answer": "Porque segue etapas organizadas: produção → maturação → ativação → resposta."
+    },
+    {
+      "question": "Um recém-nascido apresenta ausência de timo. Descreva três consequências imunológicas.",
+      "answer": "→ Falha na maturação de linfócitos T<br>→ Comprometimento da imunidade celular<br>→ Aumento de infecções virais e fúngicas"
+    },
+    {
+      "question": "Quais são os quatro tipos básicos de tecidos em organismos metazoários?",
+      "answer": "Epitelial, conjuntivo, muscular e nervoso."
+    },
+    {
+      "question": "Qual a principal característica do tecido epitelial?",
+      "answer": "Células justapostas que revestem superfícies e cavidades."
+    },
+    {
+      "question": "O que caracteriza o tecido conjuntivo?",
+      "answer": "Poucas células e abundante matriz extracelular."
+    },
+    {
+      "question": "O que é hipertrofia?",
+      "answer": "Aumento do tamanho das células."
+    },
+    {
+      "question": "O que é hiperplasia?",
+      "answer": "Aumento do número de células."
+    },
+    {
+      "question": "O que é atrofia?",
+      "answer": "Redução do tamanho ou número de células."
+    },
+    {
+      "question": "O que é metaplasia?",
+      "answer": "Transformação de um tipo celular em outro."
+    },
+    {
+      "question": "Qual a principal diferença entre hipertrofia e hiperplasia?",
+      "answer": "Hipertrofia aumenta o tamanho celular; hiperplasia aumenta o número de células."
+    },
+    {
+      "question": "O que determina se uma lesão celular será reversível ou irreversível?",
+      "answer": "A intensidade e duração do estímulo agressor."
+    },
+    {
+      "question": "Cite os principais agentes causadores de lesão celular.",
+      "answer": "Hipóxia, agentes físicos, químicos, infecciosos, imunológicos, genéticos e nutricionais."
+    },
+    {
+      "question": "O que é hipóxia?",
+      "answer": "Redução ou ausência de oxigênio nos tecidos."
+    },
+    {
+      "question": "O que é necrose?",
+      "answer": "Morte celular com perda da integridade da membrana e extravasamento do conteúdo celular"
+    },
+    {
+      "question": "O que é apoptose?",
+      "answer": "Morte celular programada com manutenção da membrana plasmática."
+    },
+    {
+      "question": "Qual a principal diferença morfológica entre necrose e apoptose?",
+      "answer": "Na necrose há ruptura da membrana; na apoptose ela permanece intacta."
+    },
+    {
+      "question": "O que caracteriza a necrose de coagulação?",
+      "answer": "Preservação da arquitetura do tecido por alguns dias."
+    },
+    {
+      "question": "O que caracteriza a necrose de liquefação?",
+      "answer": "Digestão rápida do tecido morto."
+    },
+    {
+      "question": "A necrose caseosa está associada a qual doença?",
+      "answer": "Tuberculose."
+    },
+    {
+      "question": "Qual o aspecto da necrose gomosa e a qual doença está relacionada?",
+      "answer": "Aspecto elástico (borracha), associada à sífilis."
+    },
+    {
+      "question": "Por que a hipóxia pode levar à necrose celular?",
+      "answer": "Porque impede a produção de ATP, levando à falência das funções celulares."
+    },
+    {
+      "question": "Qual tipo de morte celular é esperado em processos inflamatórios intensos?",
+      "answer": "Necrose"
+    },
+    {
+      "question": "Por que a apoptose não causa inflamação?",
+      "answer": "Porque o conteúdo celular não é liberado no meio extracelular."
+    },
+    {
+      "question": "O que são radicais livres?",
+      "answer": "Moléculas instáveis que podem causar dano celular."
+    },
+    {
+      "question": "O que é etiologia de uma doença?",
+      "answer": "A causa ou origem da doença."
+    }
+  ]

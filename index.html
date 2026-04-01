@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <title>Flashcards - Imunologia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Deck de estudo</p>
+        <h1>Flashcards</h1>
+      </div>
+
+      <div class="counter-wrap">
+        <span id="counter" class="counter">0 / 0</span>
+      </div>
+    </header>
+
+    <section class="viewer">
+      <div class="flashcard-scene">
+        <article
+          id="flashcard"
+          class="flashcard"
+          aria-live="polite"
+          aria-label="Flashcard"
+          tabindex="0"
+        >
+          <div class="flashcard-face flashcard-front">
+            <p class="face-label">Pergunta</p>
+            <div id="question" class="card-content"></div>
+          </div>
+
+          <div class="flashcard-face flashcard-back">
+            <p class="face-label">Resposta</p>
+            <div id="answer" class="card-content"></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="actions">
+        <button id="toggleBtn" class="btn btn-primary" type="button">
+          Ver resposta
+        </button>
+      </div>
+
+      <div class="nav">
+        <button id="prevBtn" class="btn btn-secondary" type="button">
+          ← Anterior
+        </button>
+
+        <button id="nextBtn" class="btn btn-secondary" type="button">
+          Próximo →
+        </button>
+      </div>
+
+      <p id="statusMessage" class="hint">
+        Dica: no computador, use ← → para navegar e Espaço/Enter para virar o card.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
