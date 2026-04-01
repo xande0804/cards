@@ -1,0 +1,75 @@
+#separator:tab
+#html:true
+#tags column:3
+O que é o sistema imunológico?	Sistema integrado de células, tecidos e órgãos responsável pela defesa e manutenção da homeostase, capaz de reconhecer “próprio” e “não próprio”.	
+O que é um antígeno? 	Molécula capaz de ser reconhecida por receptores específicos do sistema imune.	
+Por que a estrutura do sistema imune é importante?	Porque sem estrutura não há função; a resposta imune depende de organização anatômica	
+Como o sistema imune é organizado anatomicamente?	Em órgãos linfoides primários, secundários e células circulantes.	
+Qual a função dos órgãos linfoides primários?	Produção e maturação das células do sistema imune.	
+Qual a função dos órgãos linfoides secundários?	Promover o encontro entre antígeno e linfócitos e ativar a resposta imune.	
+Quais são os órgãos linfoides primários?	Medula óssea e timo.	
+O que é hematopoese?	Processo de formação das células sanguíneas.	
+ Qual a função da medula óssea?	Produzir células do sangue e maturar linfócitos B.	
+Qual a função do timo?	Maturação de linfócitos T.	
+O que é seleção negativa no timo?	Eliminação de linfócitos autorreativos.	
+Quais são os órgãos linfoides secundários?	Linfonodos, baço e MALT.	
+Qual a função dos linfonodos?	Filtrar a linfa e ativar linfócitos.	
+Quais são as principais estruturas dos linfonodos?	Cápsula, córtex e medula.	
+Qual a função do baço?	Filtrar o sangue e responder a antígenos circulantes.	
+O que fazem a polpa branca e vermelha do baço?	Polpa branca: resposta imune<br>Polpa vermelha: filtragem de hemácias	
+O que é MALT?	Tecido linfoide associado às mucosas.	
+Qual a função do MALT?	 Defesa de superfícies expostas (primeira linha contra patógenos).	
+Como ocorre a circulação das células imunes?	→ Medula óssea → sangue → órgãos secundários → tecidos → retorno à circulação.	
+Por que o sistema imune é considerado dinâmico?	Porque há circulação contínua de células entre órgãos e tecidos.	
+Qual a relação entre órgãos primários e secundários?	→ Primários: produção e maturação<br>→ Secundários: ativação e resposta	
+O que é expansão clonal?	Multiplicação de linfócitos ativados.	
+O que acontece se uma pessoa nasce sem timo funcional?	Prejuízo na maturação de linfócitos T.	
+Quais infecções são mais comuns no caso de falta de timo funcional?	Virais e fúngicas.	
+Qual é um exemplo clínico dessa condição?	 Síndrome de DiGeorge.	
+Um paciente apresenta resposta imune desorganizada apesar de células funcionais. Qual princípio estrutural explica isso?	A resposta imune depende de organização anatômica; sem estrutura, não há coordenação funcional.	
+Explique por que o sistema imune não pode ser considerado um conjunto isolado de células.	Porque depende da integração entre órgãos, circulação e organização espacial para funcionar adequadamente.	
+Um fármaco impede a migração de linfócitos para órgãos secundários. Qual etapa da resposta será mais afetada?	encontro com antígeno e a ativação da resposta imune.	
+Diferencie funcionalmente uma falha em órgão primário vs secundário.	→ Primário: afeta produção/maturação<br>→ Secundário: afeta ativação/resposta	
+Por que a formação do repertório imunológico ocorre apenas nos órgãos primários?	Porque é onde ocorre maturação e seleção de linfócitos.	
+Se a hematopoese for comprometida, quais sistemas serão diretamente afetados?	Sistema imune e sistema hematológico como um todo.	
+Por que a medula óssea é considerada essencial mesmo após o nascimento?	 Porque continua produzindo células sanguíneas continuamente.	
+Qual consequência específica ocorre na imunidade adaptativa se houver falha na maturação de linfócitos B?	Redução da produção de anticorpos.	
+Um erro na seleção negativa levaria a qual consequência clínica direta?	Desenvolvimento de autoimunidade.	
+Por que o timo é mais crítico na infância do que na vida adulta?	Porque é o principal local de maturação inicial dos linfócitos T.	
+Relacione ausência de timo com tipo de patógeno mais frequente	Maior suscetibilidade a vírus e fungos.	
+Qual mecanismo do timo evita ataque ao próprio organismo?	Eliminação de linfócitos autorreativos (seleção negativa).	
+Um aumento de linfonodos durante infecção indica qual processo imunológico?	Ativação e proliferação de linfócitos (expansão clonal).	
+Por que linfonodos são estratégicos na defesa?	Porque filtram a linfa e concentram antígenos e linfócitos.	
+Um paciente esplenectomizado terá maior dificuldade contra qual tipo de antígeno?	 Antígenos circulantes no sangue	
+Diferencie funcionalmente polpa branca e vermelha em contexto clínico.	→ Branca: resposta imune<br>→ Vermelha: remoção de hemácias envelhecidas	
+Por que o baço é único em relação aos outros órgãos 	 Porque atua sobre o sangue, não a linfa.	
+Por que o MALT é considerado linha de frente da imunidade?	Porque atua nas superfícies de contato com o meio externo.	
+ Cite uma consequência de falha no MALT.	Maior suscetibilidade a infecções em mucosas (respiratórias, intestinais).	
+Por que a circulação contínua de células imunes é essencial?	Para garantir vigilância imunológica em todo o organismo.	
+Qual seria o impacto de interromper o tráfego entre órgãos primários e secundários?	Comprometimento da ativação da resposta imune.	
+Associe corretamente: produção, maturação, ativação e expansão clonal aos locais onde ocorrem.	→ Produção/maturação: órgãos primários<br>→ Ativação/expansão: órgãos secundários	
+Por que a resposta imune é considerada um processo hierárquico?	Porque segue etapas organizadas: produção → maturação → ativação → resposta.	
+Um recém-nascido apresenta ausência de timo. Descreva três consequências imunológicas.	→ Falha na maturação de linfócitos T<br>→ Comprometimento da imunidade celular<br>→ Aumento de infecções virais e fúngicas	
+Quais são os quatro tipos básicos de tecidos em organismos metazoários?	Epitelial, conjuntivo, muscular e nervoso.	
+Qual a principal característica do tecido epitelial?	Células justapostas que revestem superfícies e cavidades.	
+O que caracteriza o tecido conjuntivo?	Poucas células e abundante matriz extracelular.	
+O que é hipertrofia?	Aumento do tamanho das células.	
+O que é hiperplasia?	Aumento do número de células.	
+O que é atrofia?	Redução do tamanho ou número de células.	
+O que é metaplasia?	Transformação de um tipo celular em outro.	
+Qual a principal diferença entre hipertrofia e hiperplasia?	Hipertrofia aumenta o tamanho celular; hiperplasia aumenta o número de células.	
+O que determina se uma lesão celular será reversível ou irreversível?	A intensidade e duração do estímulo agressor.	
+Cite os principais agentes causadores de lesão celular.	Hipóxia, agentes físicos, químicos, infecciosos, imunológicos, genéticos e nutricionais.	
+O que é hipóxia?	Redução ou ausência de oxigênio nos tecidos.	
+ O que é necrose?	Morte celular com perda da integridade da membrana e extravasamento do conteúdo celular	
+O que é apoptose?	Morte celular programada com manutenção da membrana plasmática.	
+Qual a principal diferença morfológica entre necrose e apoptose?	Na necrose há ruptura da membrana; na apoptose ela permanece intacta.	
+O que caracteriza a necrose de coagulação?	Preservação da arquitetura do tecido por alguns dias.	
+O que caracteriza a necrose de liquefação?	Digestão rápida do tecido morto.	
+A necrose caseosa está associada a qual doença?	Tuberculose.	
+Qual o aspecto da necrose gomosa e a qual doença está relacionada?	Aspecto elástico (borracha), associada à sífilis.	
+Por que a hipóxia pode levar à necrose celular?	Porque impede a produção de ATP, levando à falência das funções celulares.	
+Qual tipo de morte celular é esperado em processos inflamatórios intensos?	Necrose	
+Por que a apoptose não causa inflamação?	Porque o conteúdo celular não é liberado no meio extracelular.	
+O que são radicais livres?	Moléculas instáveis que podem causar dano celular.	
+O que é etiologia de uma doença?	A causa ou origem da doença.	
