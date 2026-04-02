@@ -24,23 +24,25 @@
 
     <section class="viewer">
       <div class="flashcard-scene">
-        <article
-          id="flashcard"
-          class="flashcard"
-          aria-live="polite"
-          aria-label="Flashcard"
-          tabindex="0"
-        >
-          <div class="flashcard-face flashcard-front">
-            <p class="face-label">Pergunta</p>
-            <div id="question" class="card-content"></div>
-          </div>
+        <div id="flashcardSlider" class="flashcard-slider">
+          <article
+            id="flashcard"
+            class="flashcard"
+            aria-live="polite"
+            aria-label="Flashcard"
+            tabindex="0"
+          >
+            <div class="flashcard-face flashcard-front">
+              <p class="face-label">Pergunta</p>
+              <div id="question" class="card-content"></div>
+            </div>
 
-          <div class="flashcard-face flashcard-back">
-            <p class="face-label">Resposta</p>
-            <div id="answer" class="card-content"></div>
-          </div>
-        </article>
+            <div class="flashcard-face flashcard-back">
+              <p class="face-label">Resposta</p>
+              <div id="answer" class="card-content"></div>
+            </div>
+          </article>
+        </div>
       </div>
 
       <div class="actions">
@@ -59,8 +61,14 @@
         </button>
       </div>
 
+      <div class="shuffle-wrap">
+        <button id="shuffleBtn" class="btn btn-tertiary" type="button">
+          Aleatorizar
+        </button>
+      </div>
+
       <p id="statusMessage" class="hint">
-        Dica: no computador, use ← → para navegar e Espaço/Enter para virar o card.
+        Dica: no computador, use ← → para navegar e Espaço/Enter para trocar o card.
       </p>
     </section>
   </main>
