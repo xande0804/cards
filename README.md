@@ -2,7 +2,7 @@
 
 A lightweight flashcard application focused on **active recall** and **real learning**, not memorizing patterns.
 
-Originally built to support study sessions with a more effective approach to retention.
+Originally designed to support my girlfriend's study sessions with a more effective approach to retention.
 
 ---
 
