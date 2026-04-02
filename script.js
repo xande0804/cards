@@ -1,4 +1,5 @@
 const flashcardEl = document.getElementById("flashcard");
+const flashcardSliderEl = document.getElementById("flashcardSlider");
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
 const counterEl = document.getElementById("counter");
@@ -7,14 +8,22 @@ const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const statusMessageEl = document.getElementById("statusMessage");
 
+const SLIDE_DURATION = 280;
+
 let flashcards = [];
 let currentIndex = 0;
 let isFlipped = false;
+let isAnimating = false;
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 function updateFlipState(flipped) {
   isFlipped = flipped;
   flashcardEl.classList.toggle("is-flipped", isFlipped);
   toggleBtn.textContent = isFlipped ? "Ver pergunta" : "Ver resposta";
+  toggleBtn.setAttribute("aria-pressed", String(isFlipped));
 }
 
 function renderCard() {
@@ -33,25 +42,73 @@ function renderCard() {
   questionEl.innerHTML = currentCard.question;
   answerEl.innerHTML = currentCard.answer;
   counterEl.textContent = `${currentIndex + 1} / ${flashcards.length}`;
+}
 
-  updateFlipState(false);
+function setButtonsDisabled(disabled) {
+  toggleBtn.disabled = disabled;
+  prevBtn.disabled = disabled;
+  nextBtn.disabled = disabled;
+}
+
+function clearSlideClasses() {
+  flashcardSliderEl.classList.remove(
+    "is-sliding-out-left",
+    "is-sliding-out-right",
+    "is-pre-enter-left",
+    "is-pre-enter-right",
+    "is-entering"
+  );
 }
 
 function flipCard() {
-  if (!flashcards.length) return;
+  if (!flashcards.length || isAnimating) return;
   updateFlipState(!isFlipped);
 }
 
-function goNext() {
-  if (!flashcards.length) return;
-  currentIndex = (currentIndex + 1) % flashcards.length;
+async function navigate(direction) {
+  if (!flashcards.length || isAnimating) return;
+
+  isAnimating = true;
+  setButtonsDisabled(true);
+
+  const isNext = direction === "next";
+  const outClass = isNext ? "is-sliding-out-left" : "is-sliding-out-right";
+  const preEnterClass = isNext ? "is-pre-enter-right" : "is-pre-enter-left";
+
+  clearSlideClasses();
+  flashcardSliderEl.classList.add(outClass);
+
+  await wait(SLIDE_DURATION);
+
+  clearSlideClasses();
+
+  currentIndex = isNext
+    ? (currentIndex + 1) % flashcards.length
+    : (currentIndex - 1 + flashcards.length) % flashcards.length;
+
+  updateFlipState(false);
   renderCard();
+
+  flashcardSliderEl.classList.add(preEnterClass);
+
+  await wait(20);
+
+  flashcardSliderEl.classList.add("is-entering");
+  flashcardSliderEl.classList.remove(preEnterClass);
+
+  await wait(SLIDE_DURATION);
+
+  clearSlideClasses();
+  setButtonsDisabled(false);
+  isAnimating = false;
+}
+
+function goNext() {
+  navigate("next");
 }
 
 function goPrev() {
-  if (!flashcards.length) return;
-  currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
-  renderCard();
+  navigate("prev");
 }
 
 async function loadCards() {
@@ -80,6 +137,10 @@ async function loadCards() {
     }
 
     renderCard();
+    updateFlipState(false);
+    toggleBtn.disabled = false;
+    prevBtn.disabled = false;
+    nextBtn.disabled = false;
   } catch (error) {
     console.error(error);
     statusMessageEl.textContent =
@@ -99,6 +160,8 @@ prevBtn.addEventListener("click", goPrev);
 flashcardEl.addEventListener("click", flipCard);
 
 document.addEventListener("keydown", (event) => {
+  if (isAnimating) return;
+
   if (event.key === "ArrowRight") {
     goNext();
   }

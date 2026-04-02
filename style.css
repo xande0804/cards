@@ -16,6 +16,8 @@
   --radius-xl: 24px;
   --radius-lg: 18px;
   --radius-md: 14px;
+  --slide-duration: 280ms;
+  --flip-duration: 700ms;
 }
 
 * {
@@ -107,6 +109,39 @@ h1 {
   perspective: 1200px;
 }
 
+.flashcard-slider {
+  width: 100%;
+  transition:
+    transform var(--slide-duration) ease,
+    opacity var(--slide-duration) ease;
+  will-change: transform, opacity;
+}
+
+.flashcard-slider.is-sliding-out-left {
+  transform: translateX(-72px);
+  opacity: 0;
+}
+
+.flashcard-slider.is-sliding-out-right {
+  transform: translateX(72px);
+  opacity: 0;
+}
+
+.flashcard-slider.is-pre-enter-left {
+  transform: translateX(-72px);
+  opacity: 0;
+}
+
+.flashcard-slider.is-pre-enter-right {
+  transform: translateX(72px);
+  opacity: 0;
+}
+
+.flashcard-slider.is-entering {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .flashcard {
   position: relative;
   width: 100%;
@@ -114,7 +149,7 @@ h1 {
   cursor: pointer;
   outline: none;
   transform-style: preserve-3d;
-  transition: transform 0.7s ease;
+  transition: transform var(--flip-duration) ease;
 }
 
 .flashcard:focus-visible {
@@ -181,6 +216,16 @@ h1 {
   font-weight: 800;
 }
 
+.flashcard.is-flipped .flashcard-face {
+  background:
+    linear-gradient(180deg, rgba(56, 189, 248, 0.08), rgba(14, 165, 233, 0.05)),
+    linear-gradient(160deg, #1f2e4a, #2b3d5e 60%, #223552);
+}
+
+.flashcard.is-flipped .face-label {
+  color: #22c55e;
+}
+
 .card-content {
   flex: 1;
   display: flex;
@@ -222,6 +267,14 @@ h1 {
   cursor: pointer;
   font-weight: 800;
   box-shadow: var(--shadow-md);
+  transition:
+    transform 150ms ease,
+    opacity 150ms ease;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
 }
 
 .btn-primary {
@@ -283,6 +336,22 @@ h1 {
 
   .hint {
     font-size: 0.88rem;
+  }
+
+  .flashcard-slider.is-sliding-out-left {
+    transform: translateX(-48px);
+  }
+
+  .flashcard-slider.is-sliding-out-right {
+    transform: translateX(48px);
+  }
+
+  .flashcard-slider.is-pre-enter-left {
+    transform: translateX(-48px);
+  }
+
+  .flashcard-slider.is-pre-enter-right {
+    transform: translateX(48px);
   }
 }
 
