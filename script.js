@@ -96,7 +96,6 @@ async function loadCards() {
 toggleBtn.addEventListener("click", flipCard);
 nextBtn.addEventListener("click", goNext);
 prevBtn.addEventListener("click", goPrev);
-
 flashcardEl.addEventListener("click", flipCard);
 
 document.addEventListener("keydown", (event) => {
